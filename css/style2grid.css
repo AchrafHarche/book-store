@@ -9,7 +9,9 @@
     height: 250px;
     background-color: #eee;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
 }
 
 .parent div {
@@ -20,6 +22,6 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    margin: 1px;
+
 
 }
