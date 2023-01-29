@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 20px auto;
+    display: grid;
+    width: 400px;
+    height: 250px;
+    background-color: #eee;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+.parent div {
+    display: grid;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 1px;
+
+}

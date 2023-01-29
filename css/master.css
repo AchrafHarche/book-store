@@ -1,0 +1,93 @@
+.f1 {
+    color: rgb(201, 245, 45);
+    font-size: 40px;
+    font-family: fantasy;
+    background-color: red;
+    background-image: url("../css/imges/college-student-3500990__340.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    /* background-size: contain; */
+    padding: 30px;
+}
+
+.f2 {
+    background-color: rgb(150, 196, 99);
+    padding: 10px;
+    padding-top: 10px;
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    margin-right: auto;
+    border-width: 5px;
+    border-color: rgb(7, 1, 12);
+    border-style: solid;
+    border: 10px solid blue;
+    /* outline-style: dashed; */
+    width: 100%;
+    text-align: center;
+    text-shadow: #eee;
+    /* visibility: hidden; */
+}
+
+.special {
+    color: rgb(21, 1, 1);
+    /* text-align: center;
+    direction: ltr;
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    text-indent: 20px;
+    width: 400px;
+    /* font-size: 1rem; */
+    background-color: #eee;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.f3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: chartreuse;
+}
+
+.parent {
+    background-color: rgb(221, 33, 33);
+    padding: 10px;
+
+}
+
+body {
+    margin: 0;
+    /* background-image: url(../css/imges/college-student-3500990__340.jpg); */
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    /* background-position:  center; */
+    /* background-size: contain; */
+}
+
+.parent div {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: blueviolet;
+    width: calc(94% / 5);
+    float: left;
+    margin-left: 1%;
+
+
+}
+
+.clear {
+    clear: both;
+}
